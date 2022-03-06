@@ -1,0 +1,26 @@
+.container{
+    position: relative;
+}
+.black-box{
+    position: relative;
+    border: 3px solid red;
+    padding: 3px;
+    height: 100px;
+    margin: 30px;
+}
+.red-box{
+    position: absolute;
+    background: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+.green-box{
+    position: absolute;
+    background: blue;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
